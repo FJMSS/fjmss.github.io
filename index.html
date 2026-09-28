@@ -5,9 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>ফুলবাড়ী যুব মানবসেবা সংগঠন</title>
+	
+	<meta
+    name="description"
+    content="ফুলবাড়ী যুব মানবসেবা সংগঠন (FJMSS) — মানবতার সেবায়, যুবদের ঐক্যে। ফুলবাড়ী, কুড়িগ্রাম।">
+
+<meta
+    name="keywords"
+    content="FJMSS, ফুলবাড়ী যুব মানবসেবা সংগঠন, ফুলবাড়ী, কুড়িগ্রাম, মানবসেবা, স্বেচ্ছাসেবী সংগঠন">
+
+<meta
+    name="author"
+    content="ফুলবাড়ী যুব মানবসেবা সংগঠন">
 
     <meta name="description"
           content="ফুলবাড়ী যুব মানবসেবা সংগঠন — মানবতার সেবায়, যুবদের ঐক্যে।">
+		  
+		  
+		  <link rel="icon" type="image/png" href="images/favicon.png">
 
     <link rel="stylesheet" href="style.css">
 </head>
@@ -22,7 +37,7 @@
 
         <a href="#home" class="brand">
 
-            <div class="brand-logo">F</div>
+            <div class="brand-logo"><img src="images/logo.png" alt="FJMSS Logo"></div>
 
             <div>
                 <h2>ফুলবাড়ী যুব মানবসেবা সংগঠন</h2>
@@ -122,6 +137,8 @@
 
 <!-- ================= ABOUT ================= -->
 
+<!-- ================= ABOUT ================= -->
+
 <section class="section" id="about">
 
     <div class="container">
@@ -173,6 +190,15 @@
                 </p>
 
             </div>
+
+        </div>
+
+
+        <div class="about-more">
+
+            <a href="about.html" class="btn btn-primary">
+                আমাদের সম্পর্কে আরও জানুন →
+            </a>
 
         </div>
 
@@ -255,6 +281,15 @@
 
         </div>
 
+
+        <div class="activities-more">
+
+            <a href="activities.html" class="btn btn-primary">
+                সব কার্যক্রম দেখুন →
+            </a>
+
+        </div>
+
     </div>
 
 </section>
@@ -297,63 +332,39 @@
     <div class="container">
 
         <div class="section-title">
-
             <span>গ্যালারি</span>
-
             <h2>আমাদের কার্যক্রমের ছবি</h2>
-
             <p>
-                ভবিষ্যতে এখানে আমাদের বাস্তব কার্যক্রমের ছবি যুক্ত করা হবে।
+                আমাদের বিভিন্ন মানবিক কার্যক্রমের সাম্প্রতিক কিছু মুহূর্ত।
             </p>
+        </div>
+
+        <div class="home-gallery-wrapper">
+
+            <button
+                class="gallery-arrow gallery-prev"
+                id="galleryPrev">
+                ‹
+            </button>
+
+            <div
+                class="home-gallery-track"
+                id="homeGalleryTrack">
+            </div>
+
+            <button
+                class="gallery-arrow gallery-next"
+                id="galleryNext">
+                ›
+            </button>
 
         </div>
 
-
-<div class="gallery-grid">
-
-    <div class="gallery-item">
-        <img src="images/activity-1.jpg" alt="ফুলবাড়ী যুব মানবসেবা সংগঠনের মানবিক কার্যক্রম">
-        <div class="gallery-caption">
-            মানবিক সহায়তা কার্যক্রম
+        <div class="gallery-more">
+            <a href="gallery.html" class="btn btn-primary">
+                See More →
+            </a>
         </div>
-    </div>
-
-    <div class="gallery-item">
-        <img src="images/activity-2.jpg" alt="স্বেচ্ছাসেবক কার্যক্রম">
-        <div class="gallery-caption">
-            স্বেচ্ছাসেবক কার্যক্রম
-        </div>
-    </div>
-
-    <div class="gallery-item">
-        <img src="images/activity-3.jpg" alt="অসহায় মানুষের পাশে">
-        <div class="gallery-caption">
-            অসহায় মানুষের পাশে
-        </div>
-    </div>
-
-    <div class="gallery-item">
-        <img src="images/activity-4.jpg" alt="সামাজিক সচেতনতা কার্যক্রম">
-        <div class="gallery-caption">
-            সচেতনতা কার্যক্রম
-        </div>
-    </div>
-
-    <div class="gallery-item">
-        <img src="images/activity-5.jpg" alt="ফুলবাড়ী যুব মানবসেবা সংগঠনের কার্যক্রম">
-        <div class="gallery-caption">
-            সংগঠনের কার্যক্রম
-        </div>
-    </div>
-
-    <div class="gallery-item">
-        <img src="images/activity-6.jpg" alt="মানবতার সেবায় স্বেচ্ছাসেবকরা">
-        <div class="gallery-caption">
-            মানবতার সেবায়
-        </div>
-    </div>
-
-</div>
 
     </div>
 
@@ -364,7 +375,7 @@
 
 <!-- ================= NEWS / NOTICE ================= -->
 
-<section class="section section-light" id="news">
+<section class="section" id="news">
 
     <div class="container">
 
@@ -375,78 +386,23 @@
             <h2>সর্বশেষ খবর</h2>
 
             <p>
-                সংগঠনের নতুন কার্যক্রম, ঘোষণা ও গুরুত্বপূর্ণ তথ্য এখানে প্রকাশ করা হবে।
+                সংগঠনের সর্বশেষ নোটিশ, ঘোষণা ও কার্যক্রমের সংবাদ।
             </p>
 
         </div>
 
 
-        <div class="news-grid">
-
-            <article class="news-card">
-
-                <div class="news-date">
-                    📅 27 সেপ্টেম্বর 2026
-                </div>
-
-                <h3>
-                    স্বেচ্ছাসেবক নিবন্ধন কার্যক্রম শুরু
-                </h3>
-
-                <p>
-                    ফুলবাড়ী যুব মানবসেবা সংগঠনের সাথে স্বেচ্ছাসেবক হিসেবে
-                    যুক্ত হতে অনলাইনে নিবন্ধন করা যাবে।
-                </p>
-
-                <a href="#registration">
-                    বিস্তারিত / নিবন্ধন →
-                </a>
-
-            </article>
+        <div
+            class="home-news-grid"
+            id="homeNewsGrid">
+        </div>
 
 
-            <article class="news-card">
+        <div class="news-more">
 
-                <div class="news-date">
-                    📢 গুরুত্বপূর্ণ ঘোষণা
-                </div>
-
-                <h3>
-                    নতুন কার্যক্রমের তথ্য শীঘ্রই প্রকাশ করা হবে
-                </h3>
-
-                <p>
-                    সংগঠনের চলমান ও ভবিষ্যৎ মানবিক কার্যক্রমের তথ্য
-                    এই বিভাগে প্রকাশ করা হবে।
-                </p>
-
-                <a href="#activities">
-                    কার্যক্রম দেখুন →
-                </a>
-
-            </article>
-
-
-            <article class="news-card">
-
-                <div class="news-date">
-                    ❤️ মানবতার সেবা
-                </div>
-
-                <h3>
-                    অসুস্থ ও অসহায় মানুষের পাশে
-                </h3>
-
-                <p>
-                    আমাদের বর্তমান প্রধান উদ্যোগ হলো অসুস্থ ও অসহায়
-                    মানুষের পাশে দাঁড়ানো।
-                </p>
-
-                <a href="#activities">
-                    কার্যক্রম দেখুন →
-                </a>
-
-            </article>
+            <a href="news.html" class="btn btn-primary">
+                সব সংবাদ দেখুন →
+            </a>
 
         </div>
 
@@ -457,101 +413,39 @@
 
 <!-- ================= REPORTS ================= -->
 
+<!-- ================================
+     HOME REPORTS
+================================ -->
+
 <section class="section" id="reports">
 
     <div class="container">
 
         <div class="section-title">
 
-            <span>রিপোর্ট</span>
+            <span>প্রতিবেদন</span>
 
-            <h2>কার্যক্রমের প্রতিবেদন</h2>
+            <h2>সর্বশেষ প্রতিবেদন</h2>
 
             <p>
-                সংগঠনের কার্যক্রম ও ভবিষ্যৎ রিপোর্ট এখানে প্রকাশ করা হবে।
+                আমাদের বিভিন্ন মানবিক ও সামাজিক কার্যক্রমের
+                বিস্তারিত প্রতিবেদন।
             </p>
 
         </div>
 
+        <div
+            class="home-reports-grid"
+            id="homeReportsGrid">
+        </div>
 
-        <div class="reports-grid">
+        <div class="reports-more">
 
-            <div class="report-card">
-
-                <div class="report-icon">
-                    📄
-                </div>
-
-                <div>
-
-                    <h3>
-                        মাসিক কার্যক্রম রিপোর্ট
-                    </h3>
-
-                    <p>
-                        ভবিষ্যতে মাসভিত্তিক কার্যক্রমের বিস্তারিত প্রতিবেদন
-                        এখানে যুক্ত করা হবে।
-                    </p>
-
-                    <span class="report-status">
-                        শীঘ্রই প্রকাশিত হবে
-                    </span>
-
-                </div>
-
-            </div>
-
-
-            <div class="report-card">
-
-                <div class="report-icon">
-                    📊
-                </div>
-
-                <div>
-
-                    <h3>
-                        আর্থিক প্রতিবেদন
-                    </h3>
-
-                    <p>
-                        সংগঠনের আয়-ব্যয় ও সহায়তার স্বচ্ছ হিসাব
-                        প্রকাশের জন্য এই বিভাগ ব্যবহার করা হবে।
-                    </p>
-
-                    <span class="report-status">
-                        শীঘ্রই প্রকাশিত হবে
-                    </span>
-
-                </div>
-
-            </div>
-
-
-            <div class="report-card">
-
-                <div class="report-icon">
-                    📝
-                </div>
-
-                <div>
-
-                    <h3>
-                        প্রকল্প প্রতিবেদন
-                    </h3>
-
-                    <p>
-                        সম্পন্ন হওয়া মানবিক প্রকল্পগুলোর বিস্তারিত
-                        প্রতিবেদন এখানে সংরক্ষণ করা হবে।
-                    </p>
-
-                    <span class="report-status">
-                        শীঘ্রই প্রকাশিত হবে
-                    </span>
-
-                </div>
-
-            </div>
+            <a
+                href="reports.html"
+                class="btn btn-primary">
+                সব প্রতিবেদন দেখুন →
+            </a>
 
         </div>
 
@@ -562,69 +456,128 @@
 <!-- ========== VOLUNTEER REGISTRATION ============== -->
 <!-- ================================================= -->
 
+<!-- ================= REGISTRATION ================= -->
+
 <section class="registration-section" id="registration">
 
     <div class="container">
 
         <div class="section-title">
 
-            <span>স্বেচ্ছাসেবক নিবন্ধন</span>
+            <span>
+                Volunteer With Us
+            </span>
 
-            <h2>আমাদের সাথে যুক্ত হোন</h2>
+            <h2>
+                কেন স্বেচ্ছাসেবক হবেন?
+            </h2>
 
             <p>
-                ফুলবাড়ী যুব মানবসেবা সংগঠনের স্বেচ্ছাসেবক হিসেবে
-                যুক্ত হতে নিচের ফর্মটি পূরণ করুন।
+                মানুষের পাশে দাঁড়ানোর ইচ্ছা থেকেই
+                একটি সুন্দর স্বেচ্ছাসেবী উদ্যোগের শুরু।
             </p>
 
         </div>
 
 
-        <div class="registration-box">
+        <div class="registration-feature-grid">
 
-            <div class="registration-info">
 
-                <div class="registration-icon">
+            <!-- 01 -->
+
+            <div class="registration-feature-card">
+
+                <div class="registration-feature-icon">
                     🤝
                 </div>
 
-                <h3>আপনার অংশগ্রহণ আমাদের শক্তি</h3>
+                <h3>
+                    মানবিক কাজে অংশগ্রহণ
+                </h3>
 
                 <p>
-                    মানবতার সেবায় কাজ করতে আগ্রহী হলে
-                    আপনার তথ্য দিয়ে নিবন্ধন করুন।
+                    অসুস্থ ও অসহায় মানুষের পাশে দাঁড়ানোসহ
+                    বিভিন্ন মানবিক কার্যক্রমে অংশগ্রহণের সুযোগ।
                 </p>
 
-                <ul>
+            </div>
 
-                    <li>✓ মানবিক কাজে অংশগ্রহণ</li>
 
-                    <li>✓ সামাজিক কার্যক্রমে যুক্ত হওয়ার সুযোগ</li>
+            <!-- 02 -->
 
-                    <li>✓ যুব স্বেচ্ছাসেবক নেটওয়ার্কে যুক্ত হওয়া</li>
+            <div class="registration-feature-card">
 
-                    <li>✓ মানুষের পাশে দাঁড়ানোর সুযোগ</li>
+                <div class="registration-feature-icon">
+                    👥
+                </div>
 
-                </ul>
+                <h3>
+                    স্বেচ্ছাসেবক নেটওয়ার্ক
+                </h3>
+
+                <p>
+                    একই উদ্দেশ্যে কাজ করতে আগ্রহী
+                    অন্যান্য স্বেচ্ছাসেবকদের সঙ্গে
+                    যুক্ত হওয়ার সুযোগ।
+                </p>
 
             </div>
 
 
-            <!-- GOOGLE FORM -->
+            <!-- 03 -->
 
-            <div class="google-form-area">
+            <div class="registration-feature-card">
 
-                <iframe
-                    src="https://docs.google.com/forms/d/e/1FAIpQLSfh5PC4o1vsD5iQ7iFiobW10JN41WvRpAYJKqgSL9-ZC6NH0Q/viewform?embedded=true"
-                    width="100%"
-                    height="1250"
-                    frameborder="0"
-                    marginheight="0"
-                    marginwidth="0">
-                    ফর্ম লোড হচ্ছে…
-                </iframe>
+                <div class="registration-feature-icon">
+                    ❤️
+                </div>
+
+                <h3>
+                    মানুষের পাশে দাঁড়ানো
+                </h3>
+
+                <p>
+                    প্রয়োজনের সময় মানুষের পাশে থেকে
+                    সহযোগিতামূলক কার্যক্রমে অংশ নেওয়া।
+                </p>
 
             </div>
+
+
+            <!-- 04 -->
+
+            <div class="registration-feature-card">
+
+                <div class="registration-feature-icon">
+                    📢
+                </div>
+
+                <h3>
+                    সামাজিক সচেতনতা
+                </h3>
+
+                <p>
+                    বিভিন্ন সামাজিক ও মানবিক বিষয়ে
+                    সচেতনতামূলক কার্যক্রমে অংশগ্রহণ।
+                </p>
+
+            </div>
+
+
+        </div>
+
+
+        <!-- REGISTRATION BUTTON -->
+
+        <div class="registration-more">
+
+            <a
+                href="registration.html"
+                class="btn btn-primary">
+
+                নিবন্ধন ফর্ম পূরণ করুন →
+
+            </a>
 
         </div>
 
@@ -634,7 +587,6 @@
 
 
 <!-- ================= CONTACT ================= -->
-
 <section class="section section-light" id="contact">
 
     <div class="container">
@@ -687,6 +639,21 @@
                 </p>
 
             </div>
+
+        </div>
+
+
+        <!-- CONTACT PAGE LINK -->
+
+        <div class="contact-more">
+
+            <a
+                href="contact.html"
+                class="btn btn-primary">
+
+                বিস্তারিত যোগাযোগ তথ্য দেখুন →
+
+            </a>
 
         </div>
 

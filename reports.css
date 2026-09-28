@@ -1,0 +1,82 @@
+/* ================================
+   Reports Page
+================================ */
+
+.reports-page-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 28px;
+}
+
+.report-post-card {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    background: white;
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.07);
+    transition: 0.3s ease;
+}
+
+.report-post-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 14px 35px rgba(0, 0, 0, 0.12);
+}
+
+.report-post-content {
+    padding: 28px;
+}
+
+.report-category {
+    display: inline-block;
+    color: #0f766e;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.report-post-content h3 {
+    font-size: 22px;
+    line-height: 1.45;
+    margin: 5px 0 12px;
+}
+
+.report-date {
+    color: #777;
+    font-size: 14px;
+    margin-bottom: 18px;
+}
+
+.report-post-content p {
+    color: #666;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+.report-post-content strong {
+    color: #0f766e;
+    font-size: 15px;
+}
+
+
+@media (max-width: 1000px) {
+
+    .reports-page-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+
+@media (max-width: 700px) {
+
+    .reports-page-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .report-post-content {
+        padding: 24px;
+    }
+
+}
