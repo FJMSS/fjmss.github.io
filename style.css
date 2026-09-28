@@ -3084,3 +3084,29 @@ a {
 .activity-detail-card:hover .activity-read-more {
     text-decoration: underline;
 }
+
+/* Developer Credit */
+.developer-credit {
+    text-align: center;
+    margin-top: 25px;
+    padding-top: 18px;
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+    font-size: 14px;
+    color: #aaa;
+}
+
+.developer-credit a {
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.developer-credit a:hover {
+    color: #0f766e;
+    text-decoration: underline;
+}
+
+.developer-credit span {
+    color: #aaa;
+}
