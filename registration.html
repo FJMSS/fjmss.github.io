@@ -306,6 +306,8 @@
 
 <!-- ================= REGISTRATION CTA ================= -->
 
+<!-- ================= REGISTRATION CTA ================= -->
+
 <div class="registration-main-cta">
 
     <div class="registration-form-header">
@@ -319,28 +321,23 @@
         </h2>
 
         <p>
-            নিচের ফর্মটি পূরণ করে
-            আমাদের স্বেচ্ছাসেবী কার্যক্রমে যুক্ত হোন।
+            নিচের বাটনে ক্লিক করে
+            স্বেচ্ছাসেবক নিবন্ধন ফর্মটি পূরণ করুন।
         </p>
 
     </div>
 
 
-    <!-- GOOGLE FORM -->
+    <div class="registration-popup-button">
 
-    <div class="registration-google-form">
+      <a
+        href="https://script.google.com/macros/s/AKfycbyj49Zw-0EjwyrLT9YDgYd350Ily8r4n72sNzWC3wliy9ZF1JQniLlVlCmgGvpbL1CB/exec"
+        target="_blank"
+        class="btn btn-primary">
 
-        <iframe
-            src="https://docs.google.com/forms/d/e/1FAIpQLSfh5PC4o1vsD5iQ7iFiobW10JN41WvRpAYJKqgSL9-ZC6NH0Q/viewform?embedded=true"
-            width="100%"
-            height="1200"
-            frameborder="0"
-            marginheight="0"
-            marginwidth="0">
+        🤝 নিবন্ধন করুন
 
-            ফর্ম লোড হচ্ছে…
-
-        </iframe>
+      </a>
 
     </div>
 
@@ -481,9 +478,44 @@
         </div>
 
     </div>
+	<div class="developer-credit">
+      Developed by
+      <a href="https://www.facebook.com/Hasan4282"
+       target="_blank"
+       rel="noopener noreferrer">
+        Hasan
+      </a>
+      <span>· নির্বাহী সম্পাদক — FJMSS</span>
+    </div>
 
 </footer>
 
+
+<!-- ================= VOLUNTEER FORM POPUP ================= -->
+
+<div id="registrationModal" class="registration-modal">
+
+    <div class="registration-modal-box">
+
+        <button
+            type="button"
+            class="registration-close"
+            onclick="closeRegistrationForm()">
+
+            ✕
+
+        </button>
+
+        <iframe
+            src="https://script.google.com/macros/s/AKfycbyj49Zw-0EjwyrLT9YDgYd350Ily8r4n72sNzWC3wliy9ZF1JQniLlVlCmgGvpbL1CB/exec"
+            class="registration-frame"
+            title="FJMSS Volunteer Registration">
+
+        </iframe>
+
+    </div>
+
+</div>
 
 
 <script src="script.js"></script>
