@@ -342,3 +342,29 @@ document.addEventListener("DOMContentLoaded", function () {
 
 });
 
+// Modal Open Function
+function openRegistrationForm(event) {
+    if(event) event.preventDefault();
+    const modal = document.getElementById('registrationModal');
+    if(modal) {
+        modal.style.display = 'flex';
+        document.body.style.overflow = 'hidden'; // ব্যাকগ্রাউন্ড স্ক্রোল বন্ধ রাখতে
+    }
+}
+
+// Modal Close Function
+function closeRegistrationForm() {
+    const modal = document.getElementById('registrationModal');
+    if(modal) {
+        modal.style.display = 'none';
+        document.body.style.overflow = 'auto'; // ব্যাকগ্রাউন্ড স্ক্রোল চালু করতে
+    }
+}
+
+// ব্যাকগ্রাউন্ডের বাইরে ক্লিক করলেও যেন বন্ধ হয়
+window.addEventListener('click', function(event) {
+    const modal = document.getElementById('registrationModal');
+    if (event.target === modal) {
+        closeRegistrationForm();
+    }
+});
